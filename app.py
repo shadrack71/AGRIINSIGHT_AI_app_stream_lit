@@ -4,7 +4,7 @@ import logic_controller
 
 app = Flask(__name__, template_folder='templates', static_folder='static', static_url_path='/')
 
-logic_controller = logic_controller.Data_controller()
+##logic_controller = logic_controller.Data_controller()
 
 @app.route('/')
 def index():
