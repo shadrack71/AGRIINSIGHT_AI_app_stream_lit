@@ -1,0 +1,458 @@
+{
+  "Apple___Apple_scab": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "20–25 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 10-10-10 at 150 kg/ha.",
+    "Pest_Control": "Use sulfur-based fungicides; prune infected branches.",
+    "Weather_Considerations": "Avoid overhead irrigation during wet weather.",
+    "Preventive_Measures": "Remove fallen leaves; apply fungicides in early spring."
+  },
+  "Apple___Black_rot": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "20–25 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply potassium-rich fertilizer (e.g., potassium sulfate).",
+    "Pest_Control": "Use copper-based fungicides; remove infected fruit.",
+    "Weather_Considerations": "Avoid excessive moisture; ensure good air circulation.",
+    "Preventive_Measures": "Prune trees to improve airflow; sanitize tools."
+  },
+  "Apple___Cedar_apple_rust": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "20–25 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 10-10-10 at 150 kg/ha.",
+    "Pest_Control": "Use fungicides like myclobutanil; remove nearby juniper plants.",
+    "Weather_Considerations": "Apply fungicides before rainy seasons.",
+    "Preventive_Measures": "Plant resistant varieties; remove galls from junipers."
+  },
+  "Apple___healthy": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "20–25 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 10-10-10 at 150 kg/ha.",
+    "Pest_Control": "Monitor for pests; use neem oil as a preventive measure.",
+    "Weather_Considerations": "Maintain consistent irrigation.",
+    "Preventive_Measures": "Regularly inspect trees; maintain soil health."
+  },
+  "Blueberry___healthy": {
+    "Nutrient_Management": {
+      "Soil_pH": "4.5–5.5",
+      "Nitrogen": "15–20 ppm",
+      "Phosphorus": "10–15 ppm",
+      "Potassium": "100–150 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply ammonium sulfate at 50 kg/ha.",
+    "Pest_Control": "Use insecticidal soap for aphids.",
+    "Weather_Considerations": "Avoid waterlogging; ensure good drainage.",
+    "Preventive_Measures": "Mulch around plants; prune regularly."
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "20–25 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply potassium-rich fertilizer (e.g., potassium sulfate).",
+    "Pest_Control": "Use sulfur-based fungicides; prune infected branches.",
+    "Weather_Considerations": "Avoid overhead irrigation; ensure good airflow.",
+    "Preventive_Measures": "Plant resistant varieties; remove infected leaves."
+  },
+  "Cherry_(including_sour)___healthy": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "20–25 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 10-10-10 at 150 kg/ha.",
+    "Pest_Control": "Monitor for pests; use neem oil as a preventive measure.",
+    "Weather_Considerations": "Maintain consistent irrigation.",
+    "Preventive_Measures": "Regularly inspect trees; maintain soil health."
+  },
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "Nutrient_Management": {
+      "Soil_pH": "5.8–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply nitrogen-rich fertilizer (e.g., urea).",
+    "Pest_Control": "Use fungicides like chlorothalonil; rotate crops.",
+    "Weather_Considerations": "Avoid planting in wet, humid conditions.",
+    "Preventive_Measures": "Plant resistant varieties; remove crop debris."
+  },
+  "Corn_(maize)___Common_rust": {
+    "Nutrient_Management": {
+      "Soil_pH": "5.8–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 15-15-15 at 200 kg/ha.",
+    "Pest_Control": "Use fungicides like mancozeb; remove infected plants.",
+    "Weather_Considerations": "Avoid overhead irrigation; ensure good airflow.",
+    "Preventive_Measures": "Plant resistant varieties; rotate crops."
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "Nutrient_Management": {
+      "Soil_pH": "5.8–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply potassium-rich fertilizer (e.g., potassium sulfate).",
+    "Pest_Control": "Use fungicides like chlorothalonil; rotate crops.",
+    "Weather_Considerations": "Avoid planting in wet, humid conditions.",
+    "Preventive_Measures": "Plant resistant varieties; remove crop debris."
+  },
+  "Corn_(maize)___healthy": {
+    "Nutrient_Management": {
+      "Soil_pH": "5.8–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 15-15-15 at 200 kg/ha.",
+    "Pest_Control": "Monitor for pests; use neem oil as a preventive measure.",
+    "Weather_Considerations": "Maintain consistent irrigation.",
+    "Preventive_Measures": "Regularly inspect plants; maintain soil health."
+  },
+  "Grape___Black_rot": {
+    "Nutrient_Management": {
+      "Soil_pH": "5.5–6.5",
+      "Nitrogen": "20–25 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply potassium-rich fertilizer (e.g., potassium sulfate).",
+    "Pest_Control": "Use fungicides like mancozeb; remove infected fruit.",
+    "Weather_Considerations": "Avoid overhead irrigation; ensure good airflow.",
+    "Preventive_Measures": "Prune vines; remove infected debris."
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "Nutrient_Management": {
+      "Soil_pH": "5.5–6.5",
+      "Nitrogen": "20–25 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 10-10-10 at 150 kg/ha.",
+    "Pest_Control": "Use fungicides like thiophanate-methyl; prune infected vines.",
+    "Weather_Considerations": "Avoid excessive moisture; ensure good drainage.",
+    "Preventive_Measures": "Sanitize pruning tools; plant resistant varieties."
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "Nutrient_Management": {
+      "Soil_pH": "5.5–6.5",
+      "Nitrogen": "20–25 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply potassium-rich fertilizer (e.g., potassium sulfate).",
+    "Pest_Control": "Use fungicides like chlorothalonil; remove infected leaves.",
+    "Weather_Considerations": "Avoid overhead irrigation; ensure good airflow.",
+    "Preventive_Measures": "Prune vines; remove infected debris."
+  },
+  "Grape___healthy": {
+    "Nutrient_Management": {
+      "Soil_pH": "5.5–6.5",
+      "Nitrogen": "20–25 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 10-10-10 at 150 kg/ha.",
+    "Pest_Control": "Monitor for pests; use neem oil as a preventive measure.",
+    "Weather_Considerations": "Maintain consistent irrigation.",
+    "Preventive_Measures": "Regularly inspect vines; maintain soil health."
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply micronutrient-rich fertilizers (e.g., zinc sulfate).",
+    "Pest_Control": "Control psyllids with insecticides like imidacloprid.",
+    "Weather_Considerations": "Avoid planting in high-rainfall areas.",
+    "Preventive_Measures": "Remove infected trees; use disease-free nursery stock."
+  },
+  "Peach___Bacterial_spot": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "20–25 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 10-10-10 at 150 kg/ha.",
+    "Pest_Control": "Use copper-based bactericides; prune infected branches.",
+    "Weather_Considerations": "Avoid overhead irrigation; ensure good airflow.",
+    "Preventive_Measures": "Plant resistant varieties; sanitize tools."
+  },
+  "Peach___healthy": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "20–25 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 10-10-10 at 150 kg/ha.",
+    "Pest_Control": "Monitor for pests; use neem oil as a preventive measure.",
+    "Weather_Considerations": "Maintain consistent irrigation.",
+    "Preventive_Measures": "Regularly inspect trees; maintain soil health."
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 15-15-15 at 200 kg/ha.",
+    "Pest_Control": "Use copper-based bactericides; remove infected plants.",
+    "Weather_Considerations": "Avoid overhead irrigation; ensure good airflow.",
+    "Preventive_Measures": "Plant resistant varieties; rotate crops."
+  },
+  "Pepper,_bell___healthy": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 15-15-15 at 200 kg/ha.",
+    "Pest_Control": "Monitor for pests; use neem oil as a preventive measure.",
+    "Weather_Considerations": "Maintain consistent irrigation.",
+    "Preventive_Measures": "Regularly inspect plants; maintain soil health."
+  },
+  "Potato___Early_blight": {
+    "Nutrient_Management": {
+      "Soil_pH": "5.5–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply potassium-rich fertilizer (e.g., potassium sulfate).",
+    "Pest_Control": "Use fungicides like chlorothalonil; rotate crops.",
+    "Weather_Considerations": "Avoid overhead irrigation; ensure good airflow.",
+    "Preventive_Measures": "Plant resistant varieties; remove infected leaves."
+  },
+  "Potato___Late_blight": {
+    "Nutrient_Management": {
+      "Soil_pH": "5.5–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 15-15-15 at 200 kg/ha.",
+    "Pest_Control": "Use fungicides like mancozeb; remove infected plants.",
+    "Weather_Considerations": "Avoid planting in wet, humid conditions.",
+    "Preventive_Measures": "Plant resistant varieties; rotate crops."
+  },
+  "Potato___healthy": {
+    "Nutrient_Management": {
+      "Soil_pH": "5.5–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 15-15-15 at 200 kg/ha.",
+    "Pest_Control": "Monitor for pests; use neem oil as a preventive measure.",
+    "Weather_Considerations": "Maintain consistent irrigation.",
+    "Preventive_Measures": "Regularly inspect plants; maintain soil health."
+  },
+  "Raspberry___healthy": {
+    "Nutrient_Management": {
+      "Soil_pH": "5.5–6.5",
+      "Nitrogen": "20–25 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 10-10-10 at 150 kg/ha.",
+    "Pest_Control": "Monitor for pests; use neem oil as a preventive measure.",
+    "Weather_Considerations": "Maintain consistent irrigation.",
+    "Preventive_Measures": "Regularly inspect plants; maintain soil health."
+  },
+  "Soybean___healthy": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 15-15-15 at 200 kg/ha.",
+    "Pest_Control": "Monitor for pests; use neem oil as a preventive measure.",
+    "Weather_Considerations": "Maintain consistent irrigation.",
+    "Preventive_Measures": "Regularly inspect plants; maintain soil health."
+  },
+  "Squash___Powdery_mildew": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "20–25 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply potassium-rich fertilizer (e.g., potassium sulfate).",
+    "Pest_Control": "Use sulfur-based fungicides; prune infected leaves.",
+    "Weather_Considerations": "Avoid overhead irrigation; ensure good airflow.",
+    "Preventive_Measures": "Plant resistant varieties; remove infected debris."
+  },
+  "Strawberry___Leaf_scorch": {
+    "Nutrient_Management": {
+      "Soil_pH": "5.5–6.5",
+      "Nitrogen": "20–25 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 10-10-10 at 150 kg/ha.",
+    "Pest_Control": "Use fungicides like chlorothalonil; remove infected leaves.",
+    "Weather_Considerations": "Avoid overhead irrigation; ensure good airflow.",
+    "Preventive_Measures": "Plant resistant varieties; rotate crops."
+  },
+  "Strawberry___healthy": {
+    "Nutrient_Management": {
+      "Soil_pH": "5.5–6.5",
+      "Nitrogen": "20–25 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 10-10-10 at 150 kg/ha.",
+    "Pest_Control": "Monitor for pests; use neem oil as a preventive measure.",
+    "Weather_Considerations": "Maintain consistent irrigation.",
+    "Preventive_Measures": "Regularly inspect plants; maintain soil health."
+  },
+  "Tomato___Bacterial_spot": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 15-15-15 at 200 kg/ha.",
+    "Pest_Control": "Use copper-based bactericides; remove infected plants.",
+    "Weather_Considerations": "Avoid overhead irrigation; ensure good airflow.",
+    "Preventive_Measures": "Plant resistant varieties; rotate crops."
+  },
+  "Tomato___Early_blight": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply potassium-rich fertilizer (e.g., potassium sulfate).",
+    "Pest_Control": "Use fungicides like chlorothalonil; rotate crops.",
+    "Weather_Considerations": "Avoid overhead irrigation; ensure good airflow.",
+    "Preventive_Measures": "Plant resistant varieties; remove infected leaves."
+  },
+  "Tomato___Late_blight": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 15-15-15 at 200 kg/ha.",
+    "Pest_Control": "Use fungicides like mancozeb; remove infected plants.",
+    "Weather_Considerations": "Avoid planting in wet, humid conditions.",
+    "Preventive_Measures": "Plant resistant varieties; rotate crops."
+  },
+  "Tomato___Leaf_Mold": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 15-15-15 at 200 kg/ha.",
+    "Pest_Control": "Use fungicides like chlorothalonil; ensure good airflow.",
+    "Weather_Considerations": "Avoid overhead irrigation; reduce humidity.",
+    "Preventive_Measures": "Plant resistant varieties; remove infected leaves."
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply potassium-rich fertilizer (e.g., potassium sulfate).",
+    "Pest_Control": "Use fungicides like chlorothalonil; remove infected leaves.",
+    "Weather_Considerations": "Avoid overhead irrigation; ensure good airflow.",
+    "Preventive_Measures": "Plant resistant varieties; rotate crops."
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 15-15-15 at 200 kg/ha.",
+    "Pest_Control": "Use miticides like abamectin; introduce predatory mites.",
+    "Weather_Considerations": "Avoid dry, dusty conditions; increase humidity.",
+    "Preventive_Measures": "Regularly inspect plants; maintain soil moisture."
+  },
+  "Tomato___Target_Spot": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply potassium-rich fertilizer (e.g., potassium sulfate).",
+    "Pest_Control": "Use fungicides like chlorothalonil; remove infected leaves.",
+    "Weather_Considerations": "Avoid overhead irrigation; ensure good airflow.",
+    "Preventive_Measures": "Plant resistant varieties; rotate crops."
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 15-15-15 at 200 kg/ha.",
+    "Pest_Control": "Control whiteflies with insecticides like imidacloprid.",
+    "Weather_Considerations": "Avoid planting in high-rainfall areas.",
+    "Preventive_Measures": "Use disease-free seedlings; remove infected plants."
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 15-15-15 at 200 kg/ha.",
+    "Pest_Control": "Control aphids with insecticides like neem oil.",
+    "Weather_Considerations": "Avoid planting in high-rainfall areas.",
+    "Preventive_Measures": "Use disease-free seedlings; sanitize tools."
+  },
+  "Tomato___healthy": {
+    "Nutrient_Management": {
+      "Soil_pH": "6.0–6.5",
+      "Nitrogen": "25–30 ppm",
+      "Phosphorus": "15–20 ppm",
+      "Potassium": "150–200 ppm"
+    },
+    "Fertilizer_Recommendation": "Apply balanced NPK 15-15-15 at 200 kg/ha.",
+    "Pest_Control": "Monitor for pests; use neem oil as a preventive measure.",
+    "Weather_Considerations": "Maintain consistent irrigation.",
+    "Preventive_Measures": "Regularly inspect plants; maintain soil health."
+  }
+}
