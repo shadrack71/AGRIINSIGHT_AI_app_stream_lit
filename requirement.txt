@@ -1,8 +1,8 @@
-tensorflow==2.18.0
+tensorflow==2.12.0
 scikit-learn==1.6.1
 numpy==2.0.0
 matplotlib==3.10.0
 seaborn
 pandas==2.2.3
-streamlit==1.42.0
+streamlit
 librosa==0.10.1
