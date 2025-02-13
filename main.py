@@ -89,13 +89,18 @@ elif(app_mode=="Dataset"):
 
                 """)
     
-    
+    image_path = "model.png"
+    st.image(image_path,use_container_width=True)
+    image_path = "visual.png"
+    st.image(image_path,use_container_width=True)
     image_path = "data.png"
     st.image(image_path,use_container_width=True)
     image_path = "technical.png"
     st.image(image_path,use_container_width=True)
     image_path = "machine.png"
     st.image(image_path,use_container_width=True)
+    
+    
     
 elif(app_mode=="Team"):
     st.header("About Our Team")
