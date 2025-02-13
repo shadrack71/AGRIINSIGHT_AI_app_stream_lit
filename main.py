@@ -3,8 +3,8 @@ import cv2
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from huggingface_hub import InferenceClient
+
+
 import streamlit as st
 import json
 
@@ -33,7 +33,7 @@ app_mode = st.sidebar.selectbox("Select Page",["Home","Dataset","Team","AGRIINSI
 #Main Page
 if(app_mode=="Home"):
     st.header(" AN AI-POWERED CROP HEALTH AND MANAGEMENT SYSTEM FOR EARLY DISEASE DETECTION, PRECISION NUTRIENT OPTIMIZATION, AND SMART PEST CONTROL.")
-    image_path = "home_page.jpeg"
+    image_path = "image.png"
     st.image(image_path,use_container_width=True)
     st.markdown("""
     #### Welcome to AGRIINSIGHT: Your Farming Partner for Optimal Growth! 🌱📊🌿🔍
@@ -41,14 +41,25 @@ if(app_mode=="Home"):
     Upload an image of a plant, and our system will analyze it to detect any signs of diseases. Together, let's protect our crops and ensure a healthier harvest!
     
     ### How AGRIINSIGHT Works:
-     1.**Input Data:** Upload images of your plants  and the soil where it is grown.
-     2.**Smart Analysis:** AGRIINSIGHT’s advanced algorithms analyze your input to recommend the ideal fertilizer usage and detect plant diseases.
-     3.**Instant Recommendations:** Receive actionable insights and suggestions to enhance crop yields and ensure sustainable farming practices.
+    ##### 1.**Input Data:** Upload images of your plants  and the soil where it is grown.
+    ##### 2.**Smart Analysis:** AGRIINSIGHT’s advanced algorithms analyze your input to recommend the ideal fertilizer usage and detect plant diseases.
+    ##### 3.**Instant Recommendations:** Receive actionable insights and suggestions to enhance crop yields and ensure sustainable farming practices.
+   
+    
+    """)
+    image_path = "mission.png"
+    st.image(image_path,use_container_width=True)
+    image_path = "vision.png"
+    st.image(image_path,use_container_width=True)
+    
+    image_path = "problem.png"
+    st.image(image_path,use_container_width=True)
+    st.markdown("""
    
     ### Why Choose AGRIINSIGHT:
-    # 1. **  Data-Driven Precision:** Leverages the latest machine learning and data analytics for accurate recommendations tailored to your farm's needs.
-        2. ** User-Friendly Interface:** Designed for farmers of all experience levels with an intuitive and easy-to-navigate layout.
-        3. ** Quick, Impactful Results:** Get fast, reliable insights that help you make timely decisions for healthier crops and a reduced environmental footprint.
+    ##### 1. **Data-Driven Precision:** Leverages the latest machine learning and data analytics for accurate recommendations tailored to your farm's needs.
+    ##### 2. **User-Friendly Interface:** Designed for farmers of all experience levels with an intuitive and easy-to-navigate layout.
+    ##### 3. **Quick, Impactful Results:** Get fast, reliable insights that help you make timely decisions for healthier crops and a reduced environmental footprint.
 
 
     ### Get Started
@@ -57,6 +68,9 @@ if(app_mode=="Home"):
     ### About Us
     Learn more about the project, our team, and our goals on the **About** page.
     """)
+    
+    image_path = "system.png"
+    st.image(image_path,use_container_width=True)
     
 #About Project
 elif(app_mode=="Dataset"):
@@ -68,11 +82,19 @@ elif(app_mode=="Dataset"):
                 The dataset is split into training and validation sets in an 80/20 ratio while preserving the directory structure for easier management. Additionally, a separate directory with 33 test images was created to assist with prediction tasks.
 
                 #### Dataset Breakdown:
-                1. Train Set (70295 images)
-                2. Test Set(33 images)
-                3. Validation Set (17572 images)
+                1. Train Set (1000 images)
+                2. Test Set(20 images)
+                3. Validation Set (200 images)
 
                 """)
+    
+    
+    image_path = "data.png"
+    st.image(image_path,use_container_width=True)
+    image_path = "technical.png"
+    st.image(image_path,use_container_width=True)
+    image_path = "machine.png"
+    st.image(image_path,use_container_width=True)
     
 elif(app_mode=="Team"):
     st.header("About Our Team")
@@ -98,15 +120,17 @@ elif(app_mode=="Team"):
                 """)
 #Prediction Page
 elif(app_mode=="AGRIINSIGHT Dashboard"):
-    st.header("AGRIINSIGHT Dashboard ")
-    st.subheader("Disease Recognition")
+    st.header("AGRIINSIGHT: Smart Farming for Sustainable Agriculture")
+    st.subheader(" AGRIINSIGHT AI is an AI-powered platform that integrates Disease Recognition")
+    image_path = "work.png"
+    st.image(image_path,use_container_width=True)
     test_image = st.file_uploader("Choose an Image:")
     if(st.button("Show Image")):
         st.image(test_image,width=4,use_container_width=True)
     #Predict button
     if(st.button("Predict")):
         st.snow()
-        st.write("AGRIINSIGHT AI Results")
+        st.write("AGRIINSIGHT AI is an AI-powered platform")
         result_index = model_prediction(test_image)
         
         #Reading Labels
