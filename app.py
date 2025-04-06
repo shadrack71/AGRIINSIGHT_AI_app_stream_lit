@@ -4,15 +4,18 @@ import logic_controller
 
 app = Flask(__name__, template_folder='templates', static_folder='static', static_url_path='/')
 
-##logic_controller = logic_controller.Data_controller()
+logic_controller = logic_controller.Data_controller()
+
 
 @app.route('/')
 def index():
     return render_template('home.html')
 
+
 @app.route('/team')
 def team():
     return render_template('team.html')
+
 
 @app.route('/agriinsight_ai')
 def agriinsight():
@@ -21,9 +24,15 @@ def agriinsight():
     crop_recommendation = logic_controller.recommendation_management(crop_result)
     return render_template('agriinsight.html',crop_result=crop_result,crop_recommendation=crop_recommendation)
 
+
 @app.route('/dataset')
 def dataset():
     return render_template('dataset.html')
+
+
+@app.route('/dashboard')
+def dashboard():
+    return render_template('dashboard.html')
 
 
 
