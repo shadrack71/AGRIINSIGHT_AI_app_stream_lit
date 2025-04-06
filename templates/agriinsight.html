@@ -25,11 +25,12 @@
           </div>
           <div class="flex flex-1 justify-end gap-8">
             <div class="flex items-center gap-9">
-              <a class="text-[#141811] text-sm font-medium leading-normal" href="#">Agriinsight AI</a>
-              <a class="text-[#141811] text-sm font-medium leading-normal" href="#">Dashboard</a>
-              <a class="text-[#141811] text-sm font-medium leading-normal" href="#">Dataset</a>
-              <a class="text-[#141811] text-sm font-medium leading-normal" href="#">Team</a>
-              <a class="text-[#141811] text-sm font-medium leading-normal" href="#">Settings</a>
+            <a class="text-[#141811] text-sm font-medium leading-normal" href='/'>Home</a>
+              <a class="text-[#141811] text-sm font-medium leading-normal" href={{url_for('agriinsight')}}>Agriinsight AI</a>
+              <a class="text-[#141811] text-sm font-medium leading-normal" href={{url_for('dashboard')}}>Dashboard</a>
+              <a class="text-[#141811] text-sm font-medium leading-normal" href={{url_for('dataset')}}>Dataset</a>
+              <a class="text-[#141811] text-sm font-medium leading-normal" href={{url_for('team')}}>Team</a>
+              <a class="text-[#141811] text-sm font-medium leading-normal" href={{url_for('upload_file')}}>Upload</a>
             </div>
             <div
               class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
@@ -62,18 +63,12 @@
                 <div
                   class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none flex-1"
                   style='background-image: url("https://cdn.usegalileo.ai/sdxl10/5d96469f-a639-4f79-9cb0-66d712c5966b.png");'
-                ></div>
+                >
+                  <img src = '{{uploaded_image}}'>
+                </div>
               </div>
             </div>
-            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
-              <label class="flex flex-col min-w-40 flex-1">
-                <p class="text-[#141811] text-base font-medium leading-normal pb-2">Image Name</p>
-                <input
-                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#141811] focus:outline-0 focus:ring-0 border border-[#e0e5dc] bg-white focus:border-[#e0e5dc] h-14 placeholder:text-[#758863] p-[15px] text-base font-normal leading-normal"
-                  value=""
-                />
-              </label>
-            </div>
+
             <h2 class="text-[#141811] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Analysis Results</h2>
             <p class="text-[#141811] text-base font-normal leading-normal pb-3 pt-1 px-4">Our AI model has analyzed the image and identified the following:</p>
             <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
@@ -94,7 +89,7 @@
                   <div class="flex flex-col gap-1">
                     <p class="text-[#141811] text-base font-bold leading-tight">Possible Plant Disease Detected</p>
                     <p class="text-[#758863] text-sm font-normal leading-normal">
-                      The model suspects a plant disease in this area. We recommend further investigation and potential treatment options.
+                      {{crop_result}}
                     </p>
                   </div>
                   <button
@@ -105,21 +100,13 @@
                 </div>
                 <div
                   class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
-                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/e90cd526-90a2-4d2a-9390-c32593e6b6de.png");'
-                ></div>
+
+                ><img src="{{ url_for('static', filename=uploaded_image.split('static/')[1]) }}"></div>
               </div>
             </div>
             <h2 class="text-[#141811] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Recommendations</h2>
-            <p class="text-[#141811] text-base font-normal leading-normal pb-3 pt-1 px-4">Based on the analysis, here are some recommendations:</p>
-            <div class="flex items-center gap-4 bg-white px-4 min-h-14">
-              <p class="text-[#141811] text-base font-normal leading-normal flex-1 truncate">Crop Disease Control - Options</p>
-            </div>
-            <div class="flex items-center gap-4 bg-white px-4 min-h-14">
-              <p class="text-[#141811] text-base font-normal leading-normal flex-1 truncate">Optimize Crop Yield - Options</p>
-            </div>
-            <div class="flex items-center gap-4 bg-white px-4 min-h-14">
-              <p class="text-[#141811] text-base font-normal leading-normal flex-1 truncate">Crop Growth Rate Factors - Analysis</p>
-            </div>
+            <p class="text-[#141811] text-base font-normal leading-normal pb-3 pt-1 px-4">{{crop_recommendation}}</p>
+
           </div>
         </div>
       </div>
