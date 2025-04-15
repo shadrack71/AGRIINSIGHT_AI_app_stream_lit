@@ -1,1 +1,145 @@
-<h1>dataset page<h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Crop Health Dataset</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .data-section {
+            background-color: #f7fafc; /* Light background */
+        }
+        .header-section {
+            background-image: linear-gradient(to right, #4a5568, #718096); /* Darker, more professional gradient */
+        }
+        .feature-card {
+             background-color: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+    </style>
+</head>
+<body class="bg-gray-100">
+
+ <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f2f4f0] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#141811]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path></svg>
+            </div>
+            <h2 class="text-[#141811] text-lg font-bold leading-tight tracking-[-0.015em]">AgriVision AI</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+            <a class="text-[#141811] text-sm font-medium leading-normal" href='/'>Home</a>
+              <a class="text-[#141811] text-sm font-medium leading-normal" href={{url_for('agriinsight')}}>Agriinsight AI</a>
+              <a class="text-[#141811] text-sm font-medium leading-normal" href={{url_for('dashboard')}}>Dashboard</a>
+              <a class="text-[#141811] text-sm font-medium leading-normal" href={{url_for('dataset')}}>Dataset</a>
+              <a class="text-[#141811] text-sm font-medium leading-normal" href={{url_for('team')}}>Team</a>
+              <a class="text-[#141811] text-sm font-medium leading-normal" href={{url_for('upload_file')}}>Upload</a>
+            </div>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("img/crop1.jpg");'
+            ></div>
+          </div>
+        </header>
+    <header class="header-section text-white py-12 md:py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl md:text-4xl font-semibold mb-4">AI-Powered Crop Health Dataset</h1>
+            <p class="text-lg text-gray-300 max-w-2xl mx-auto">
+                Comprehensive dataset for training and evaluating AI models for early disease detection,
+                precision nutrient optimization, and smart pest control in agriculture.
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <section class="data-section py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-2xl font-semibold text-gray-800 text-center mb-8">Dataset Overview</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="feature-card p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold text-gray-700 mb-4">Image Data</h3>
+                        <p class="text-gray-600 mb-4">
+                            High-resolution images of various crops, including healthy and diseased samples.  Images cover different growth stages and environmental conditions.
+                        </p>
+                        <ul class="list-disc list-inside text-gray-500">
+                            <li>Diverse crop types</li>
+                            <li>Multiple disease categories</li>
+                            <li>Varied lighting and background</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold text-gray-700 mb-4">Sensor Data</h3>
+                        <p class="text-gray-600 mb-4">
+                           Data from various sensors, including soil moisture, temperature, humidity, and plant health metrics.
+                        </p>
+                        <ul class="list-disc list-inside text-gray-500">
+                            <li>Soil composition data</li>
+                            <li>Weather station data</li>
+                            <li>GPS location data</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold text-gray-700 mb-4">Annotations</h3>
+                        <p class="text-gray-600 mb-4">
+                            Detailed annotations for image and sensor data, including bounding boxes, segmentation masks, disease labels, nutrient levels, and pest information.
+                        </p>
+                         <ul class="list-disc list-inside text-gray-500">
+                            <li>Precise bounding boxes</li>
+                            <li>Semantic segmentation masks</li>
+                            <li>Expert-verified labels</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-2xl font-semibold text-gray-800 text-center mb-8">Dataset Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="md:order-2">
+                        <h3 class="text-xl font-semibold text-gray-700 mb-4">Key Features</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-600">
+                            <li>Large-scale, diverse dataset</li>
+                            <li>Multi-modal data (image, sensor, annotations)</li>
+                            <li>High-quality, expert-verified annotations</li>
+                            <li>Suitable for various AI tasks</li>
+                            <li>Regularly updated and expanded</li>
+                        </ul>
+                    </div>
+                    <div class="md:order-1">
+                         <img src="/img/crop1.jpg" alt="Dataset Features" class="rounded-lg shadow-md">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-2xl font-semibold text-gray-800 text-center mb-8">How to Access</h2>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <p class="text-gray-600 mb-4">
+                        The dataset will be made available through our platform.  Please contact us for early access or to discuss your specific data needs.
+                    </p>
+                    <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-semibold py-2.5 px-5 rounded-md transition duration-300">
+                        Request Access
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2024 AI Crop Health System. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

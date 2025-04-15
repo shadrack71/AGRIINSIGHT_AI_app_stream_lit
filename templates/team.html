@@ -1,116 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-
-     <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Team Member</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Custom Google font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-        <!-- Bootstrap icons-->
-<!--        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />-->
-         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="/assets/css/styles.css" rel="stylesheet" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .team-member-card {
+            background-color: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .avatar {
+            width: 100px; /* Increased size for better visibility */
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            border: 2px solid #e2e8f0; /* Added border */
+        }
+    </style>
 </head>
-
-<body>
-
-<div class="container py-5">
-    <div class="row mb-4">
-      <div class="col-lg-5">
-        <h2 class="display-4 font-weight-light">Our team</h2>
-        <p class="font-italic text-muted">
-
-
-          At AGRIINSIGHT, our team is composed of passionate individuals from diverse fields such as agriculture, data science,
-          and software development. Together, we work to leverage cutting-edge technologies to provide farmers with
-          actionable insights that improve their productivity and support sustainable farming practices.
-        </p>
-      </div>
-    </div>
-
-    <div class="row text-center">
-      <!-- Team item-->
-      <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Shadrack kinsimba</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
-          <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
+<body class="bg-gray-100">
+ <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f2f4f0] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#141811]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path></svg>
+            </div>
+            <h2 class="text-[#141811] text-lg font-bold leading-tight tracking-[-0.015em]">AgriVision AI</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+            <a class="text-[#141811] text-sm font-medium leading-normal" href='/'>Home</a>
+              <a class="text-[#141811] text-sm font-medium leading-normal" href={{url_for('agriinsight')}}>Agriinsight AI</a>
+              <a class="text-[#141811] text-sm font-medium leading-normal" href={{url_for('dashboard')}}>Dashboard</a>
+              <a class="text-[#141811] text-sm font-medium leading-normal" href={{url_for('dataset')}}>Dataset</a>
+              <a class="text-[#141811] text-sm font-medium leading-normal" href={{url_for('team')}}>Team</a>
+              <a class="text-[#141811] text-sm font-medium leading-normal" href={{url_for('upload_file')}}>Upload</a>
+            </div>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://cdn.usegalileo.ai/sdxl10/8a02553d-8f9e-4656-90f4-9f371688330a.png");'
+            ></div>
+          </div>
+        </header>
+    <header class="bg-indigo-600 text-white py-12 md:py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl md:text-4xl font-semibold">Our Team</h1>
+            <p class="text-lg text-indigo-200 mt-2">Meet the dedicated individuals behind the project.</p>
         </div>
-      </div>
-      <!-- End-->
+    </header>
 
-      <!-- Team item-->
-      <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Joan Ouma</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
-          <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
+    <main class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="team-member-card p-6 rounded-lg text-center">
+                    <img src="/img/user1.jpg" alt="Shadrack" class="avatar mx-auto">
+                    <h2 class="text-xl font-semibold text-gray-800 mb-2">Shadrack</h2>
+                    <p class="text-gray-600 mb-4">Team Lead</p>
+                    <ul class="list-disc list-inside text-gray-500 text-left">
+                        <li>Oversees the entire project.</li>
+                        <li>Develops and trains machine learning models.</li>
+                        <li>Handles hardware integration and software development.</li>
+                    </ul>
+                </div>
+
+                <div class="team-member-card p-6 rounded-lg text-center">
+                    <img src="/img/user2.png" alt="Joan" class="avatar mx-auto">
+                    <h2 class="text-xl font-semibold text-gray-800 mb-2">Joan</h2>
+                    <p class="text-gray-600 mb-4">Project Manager & UI Designer</p>
+                    <ul class="list-disc list-inside text-gray-500 text-left">
+                        <li>Assists the team lead in project management.</li>
+                        <li>Focuses on data analysis and preprocessing.</li>
+                        <li>Designs the user interface (UI) for the web/mobile app.</li>
+                    </ul>
+                </div>
+
+                <div class="team-member-card p-6 rounded-lg text-center">
+                    <img src="/img/user3.png" alt="Ruth" class="avatar mx-auto">
+                    <h2 class="text-xl font-semibold text-gray-800 mb-2">Ruth</h2>
+                    <p class="text-gray-600 mb-4">Data Engineer & Frontend Developer</p>
+                    <ul class="list-disc list-inside text-gray-500 text-left">
+                        <li>Collects and preprocesses data.</li>
+                        <li>Assists in model development and evaluation.</li>
+                        <li>Develops the frontend of the web/mobile app.</li>
+                    </ul>
+                </div>
+
+                <div class="team-member-card p-6 rounded-lg text-center">
+                    <img src="/img/user4.png" alt="Yvonne" class="avatar mx-auto">
+                    <h2 class="text-xl font-semibold text-gray-800 mb-2">Yvonne</h2>
+                    <p class="text-gray-600 mb-4">Data Scientist</p>
+                    <ul class="list-disc list-inside text-gray-500 text-left">
+                        <li>Collects and analyzes data.</li>
+                        <li>Conducts research on datasets, algorithms, and best practices.</li>
+                        <li>Performs mathematical analysis and validation of models.</li>
+                    </ul>
+                </div>
+
+                <div class="team-member-card p-6 rounded-lg text-center">
+                    <img src="/img/user5.png" alt="John" class="avatar mx-auto">
+                    <h2 class="text-xl font-semibold text-gray-800 mb-2">John</h2>
+                    <p class="text-gray-600 mb-4">Data Analyst & UI/UX Designer</p>
+                    <ul class="list-disc list-inside text-gray-500 text-left">
+                        <li>Assists in data analysis and model development.</li>
+                        <li>Designs the UI/UX for the app.</li>
+                        <li>Handles Arduino-based hardware integration for data collection.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- End-->
+    </main>
 
-      <!-- Team item-->
-      <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar8.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Ruth </h5><span class="small text-uppercase text-muted">CEO - Founder</span>
-          <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2024 Our Team. All rights reserved.</p>
         </div>
-      </div>
-      <!-- End-->
-
-      <!-- Team item-->
-      <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Yvonne </h5><span class="small text-uppercase text-muted">CEO - Founder</span>
-          <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
-        </div>
-      </div>
-      <!-- End-->
-
-        <!-- Team item-->
-      <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">John gitau</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
-          <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
-        </div>
-      </div>
-      <!-- End-->
-
-    </div>
-  </div>
-
+    </footer>
 </body>
 </html>
