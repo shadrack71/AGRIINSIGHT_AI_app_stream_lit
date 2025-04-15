@@ -64,7 +64,8 @@
                   class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none flex-1"
                   style='background-image: url("https://cdn.usegalileo.ai/sdxl10/5d96469f-a639-4f79-9cb0-66d712c5966b.png");'
                 >
-                  <img src = '{{uploaded_image}}'>
+                <img src="{{ url_for('static', filename=fix_file_path(uploaded_image).split('static/')[1]) }}">
+
                 </div>
               </div>
             </div>

@@ -35,7 +35,8 @@ def agriinsight():
    # crop_dir = 'image/crop (30).JPG'
     crop_result = logic_controller.model_prediction(crop_dir)
     crop_recommendation = logic_controller.recommendation_management(crop_result)
-    return render_template('agriinsight.html',crop_result=crop_result,crop_recommendation=crop_recommendation,uploaded_image=crop_dir)
+    filter_plant_name = logic_controller.plant_name_mapping(crop_result)
+    return render_template('agriinsight.html',crop_result=crop_result,crop_recommendation=crop_recommendation, filter_plant_name = filter_plant_name,uploaded_image=crop_dir)
 
 
 @app.route('/dataset')
