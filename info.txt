@@ -1,0 +1,1 @@
+work on the image path and loction for delopoyed model and web app
