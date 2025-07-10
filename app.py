@@ -44,7 +44,6 @@ def agriinsight():
 def dataset():
     return render_template('dataset.html')
 
-
 @app.route('/dashboard')
 def dashboard():
     return render_template('dashboard.html')
