@@ -19,7 +19,6 @@ app.config['MAX_CONTENT_LENGTH'] = 5 * 1024 * 1024  # 5MB limit
 def index():
     return render_template('home.html')
 
-
 @app.route('/team')
 def team():
     return render_template('team.html')
