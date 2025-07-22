@@ -3,7 +3,6 @@ import numpy as np
 import json
 import os
 
-
 class Data_controller:
     def __init__(self):
         self.model = tf.keras.models.load_model('model/trained_model.h5')
